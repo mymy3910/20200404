@@ -1,0 +1,176 @@
+
+/**　全体共通スタイル　**/
+#main{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* 左メニューここから　*/
+#left_menu{
+	width: 300px;
+	height: 550px;
+	background-color: #404040;
+	color: #fdfdfd;
+	float: left;
+}
+.custmer{
+	padding:15px 20px 10px 30px;
+}
+.custmer h3{
+	margin:0;
+}
+.custmer p{
+	margin:0;
+}
+
+.menu_list li{
+	list-style:none;
+	padding: 10px 10px;
+}
+.menu_list li a{
+	text-decoration: none;
+	color: #fdfdfd;
+}
+
+/*保留
+.menu_list ul .second_menu_list{
+    position: absolute;
+	top: 40px;
+	width: 100%;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.menu_list:hover ul .second_menu_list{
+	top: 50px;
+	visibility: visible;
+	opacity: 1;
+}
+*/
+/* 左メニューここまで　*/
+
+/* メインメニューここから　*/ 
+#contents{
+	width: 700px;
+	height: 550px;
+	background-color: #e0e0e0;
+	float: right;
+}
+/**パンくずリスト**/  
+.breadcrumbs {
+	width: 600px;
+    margin: 0px;
+}
+ 
+.breadcrumbs ul {
+    display: table;
+    font-size: 13px;
+}
+ 
+.breadcrumbs ul li {
+	list-style: none;
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    float: left;
+}
+.breadcrumbs ul li a{
+    text-decoration: none;
+    color: #202020;
+}
+ 
+/**メインメニュー・メンテナンスメニュー**/
+.master{
+	margin:20px 40px;
+	color:#202020 ;
+	display: table;
+}
+
+.master > div{
+    display: table-cell;    
+}
+.master_title{
+	width: 500px;
+}
+.master h2{
+	margin:0px;
+}
+.master  p{
+	margin:0px;
+	font-size: 13px
+}
+.master .main_banner a{
+	text-decoration: none;
+	color: #202020;
+}
+.master .main_banner .banner{
+	width: 120px;
+	height:  30px;
+	text-align: center;
+	border-radius: 5px;
+	border: solid 0.5px;
+	border-color:#c0c0c0;
+    background-color: #fdfdfd;
+    padding-top:8px;
+}
+hr{
+	width: 620px;
+	border: solid;
+	border-width: 2px;
+	border-color: #c0c0c0;
+}
+
+
+/**個人情報・会社情報・部署情報コンテンツ**/
+.private_master{
+	margin:0px 30px;
+	color:#202020 ;
+}
+.private_master h1{
+	margin:0px;
+}
+.private_master  p{
+	margin:0px;
+	font-size: 13spx;s
+}
+.private_master hr{
+	border: solid;
+	border-width: 3px;
+	border-color: #c0c0c0;
+}
+.private_contents table{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	border-spacing: 30px 15px;
+}
+.private_contents table tr td #text1{
+	width: 220px;
+	height: 20px;
+	border-radius: 5px;
+	border: 0.8px solid;
+	border-color:#404040;
+}
+.private_contents table tr td select{
+	width: 220px;
+	height: 25px;
+	border-radius: 5px;
+	border: 0.8px solid;
+	border-color:#404040;
+	text-align: center;
+}
+.private_contents table tr td select.date{
+	width: 55px;
+	height: 25px;
+}
+
+.button{
+    text-align:center;
+    margin:15px 0px;
+}
+button{
+	margin-right:20px;
+	margin-left:20px;
+    border-radius: 5px;
+    border-color: #fefefe;
+    background-color: #fdfdfd;
+}

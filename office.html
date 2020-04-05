@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<title>20200404会社情報検索</title>
+</head>
+<body><!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <div id="main">
+
+<!-- 左メニューここから --> 	
+  <div id="left_menu">
+  	<div class="custmer">
+  		<h3>テスト　太郎様</h3>
+  		<p>お客様番号：123456789</p>
+  	</div>	
+  	 <ul class="menu_list">
+	  	<li><a href="index.html">メインメニュー</a></li>
+	  	<li><a href="">メンテナンスメニュー</a></li>
+	  	    <!-- 保留　
+	  	    <ul class="second_menu_list">
+	  	    	<li><a href="private.html">個人情報</a></li>
+	  	    	<li><a href="office.html">会社情報</a></li>
+	  	    	<li><a href="department.html">部署情報</a></li>
+	  	    	<li><a href="other.html">個人情報</a></li>
+	  	    </ul> -->
+	  	<li><a href="password.html">パスワード変更</a></li>
+	  	<li><a href="logout.html">ログアウト</a></li>
+	 </ul>	
+  </div>
+<!-- 左メニュー終わり --> 	
+
+<!-- コンテンツ画面ここから --> 
+ <div id="contents">
+		<div class="breadcrumbs">
+			<ul>
+			<li><a href="index.html">メインメニュー　＞　</a></li>
+			<li><a href="index.html">メンテナンスメニュー　＞　</a></li>
+			<li>会社情報</li>
+			</ul>
+		</div>
+	    <div class="private_master">
+		 <h1>会社情報</h1>
+		 <p>会社情報の検索・変更・登録・削除が行えます。</p>
+		<hr>
+	   </div>
+	   <div class="private_contents">
+		   <table>
+		   	<tr>
+		   	<td>お客様番号（半角）</td>
+		   	<td><input type="text" name="custmer_number" id="text1"></td>
+		    </tr>
+		    <tr>
+		   	<td>法人コード</td>
+		   	<td>
+		   		<select name="office_code" size="1">
+		   		<option value="select_top">ーーー選択してくださいーーー</option>
+		   		<option value="office1">法人名Ａ１（100001）</option>
+				<option value="office2">法人名Ａ２（100002）</option>
+				<option value="office3">法人名Ａ３（100003）</option>
+				<option value="officeB1">法人名Ｂ１（200001）</option>
+				<option value="officeB2">法人名Ｂ２（200002）</option>
+		   	    </select>
+			</td>
+		   	</tr>
+		   	<tr>
+		   	<td>法人名（全角）</td>
+		   	<td><input type="text" name="custmer_number" id="text1"></td>
+		   	</tr>
+		    <tr>
+		   	<td>会員区分</td>
+	   		<td>
+		   		<select name="member_class" size="1">
+		   		<option value="select_top">ーーー選択してくださいーーー</option>
+		   		<option value="member1">一般権限</option>
+		   		<option value="member1">部署権限</option>
+		   		<option value="member1">統括権限</option>
+		   	    </select>
+		   </td>
+		   	</tr>
+		    <tr>
+		   	<td>発券端末区分</td>
+		   	<td>
+		   		<select name="printer" size="1">
+		   		<option value="select_top">ーーー選択してくださいーーー</option>
+		   		<option value="printer1">XXPLI 100000</option>
+		   		<option value="printer2">XXPLI 200000</option>
+		   		<option value="printer3">XXPLI 300000</option>
+		   		<option value="printer4">XXPLI 400000</option>
+		   		<option value="printer5">XXPLI 500000</option>
+		   		</select>
+		    </td>
+		   	</tr>
+		   	<tr>
+		   	<td>有効開始日</td>
+		   	<td>
+		   		<select class="date" name="year">
+				<option value="">-</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+			    </select> 年
+		   		<select class="date" name="month">
+				<option value="">-</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				</select> 月
+				<select class="date" name="day">
+				<option value="">-</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+				</select> 日
+			</td>
+		   	</tr>
+		   </table>
+
+
+		   <div class="button">
+	           <button type="button" name="serch">　検索　</button>
+	           <button type="button" name="clear">　条件クリア　</button>
+           </div>
+	   </div>
+ </div>
+</body>
+</html>
