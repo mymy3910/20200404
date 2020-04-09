@@ -21,14 +21,17 @@
 	</div>	
 	 <ul class="menu_list">
 		<li><a href="index.html">メインメニュー</a></li>
-		<li><a href="">メンテナンスメニュー</a></li>
-		    <!-- 保留　
-		    <ul class="second_menu_list">
+		<li><div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+		<a style="cursor:pointer;">メンテナンスメニュー  ▼</a>
+		</div></li>
+		<div id="open" style="display:none;clear:both;">
+				<ul>
 		    	<li><a href="private.html">個人情報</a></li>
 		    	<li><a href="office.html">会社情報</a></li>
 		    	<li><a href="department.html">部署情報</a></li>
-		    	<li><a href="other.html">個人情報</a></li>
-		    </ul> -->
+		    	<li><a href="other.html">その他</a></li>
+		    </ul>
+		</div>
 		<li><a href="password.html">パスワード変更</a></li>
 		<li><a href="logout.html">ログアウト</a></li>
 	</ul>	
