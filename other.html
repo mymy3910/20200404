@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<title>その他</title>
+</head>
+<body>
+	<div id="main">
+
+	<!-- 左メニューここから --> 	
+	<div id="left_menu">
+	<div class="custmer">
+		<h3>テスト　太郎様</h3>
+		<p>お客様番号：123456789</p>
+	</div>	
+	 <ul class="menu_list">
+		<li><a href="index.html">メインメニュー</a></li>
+		<li><div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+		<a style="cursor:pointer;">メンテナンスメニュー  ▼</a>
+		</div></li>
+		<div id="open" style="display:none;clear:both;">
+				<ul>
+		    	<li><a href="private.html">個人情報</a></li>
+		    	<li><a href="office.html">会社情報</a></li>
+		    	<li><a href="department.html">部署情報</a></li>
+		    </ul>
+		</div>
+		<li><a href="password.html">パスワード変更</a></li>
+		<li><a href="logout.html">ログアウト</a></li>
+	</ul>	
+	</div>
+	<!-- 左メニュー終わり --> 	
+
+	<!-- コンテンツ画面ここから --> 
+	<div id="contents">
+	 <div class="breadcrumbs">
+		<ul>
+		<li><a href="index.html">メインメニュー　＞　</a></li>
+		<li><a href="index.html">メンテナンスメニュー　＞　</a></li>
+		<li>その他</li>
+		</ul>
+	 </div>
+	 <div class="private_master">
+		<h1>その他</h1>
+		<p style="font-size:15px;">検索結果一覧テーブル表示のレイアウトです。また詳細表示ボタン押下でポップアップが出てきます。</p>
+		<hr>
+	 </div>
+	 <div class = "table_1">
+	 	<h4 style="color:#4f4f4f;">検索結果一覧</h4>
+	 	<table rules="all">
+	 		<tr>
+	 		  <th class="col-md-2">お客様番号</th>
+		 	  <th class="col-md-2">お客様名</th>
+		 	  <th class="col-md-3">法人名</th>
+		 	  <th class="col-md-2">所属部署名</th>
+		 	  <th class="col-md-2">会員区分</th>
+		 	  <th class="col-md-1">詳細</th>
+		 	</tr>
+		 	<tr>
+		 	  <td class="col-md-2">123456789</td>
+		 	  <td class="col-md-2">山田太郎</td>
+		 	  <td class="col-md-3">オブジェクティブコード</td>
+		 	  <td class="col-md-2">人事部</td>
+		 	  <td class="col-md-2">一般権限</td>
+		 	  <td class="col-md-1"><button type="button" onclick="alert('これはテストとなります')">詳細表示</button></td>
+		 	</tr>
+             <tr>
+		 	  <td class="col-md-2">134234288</td>
+		 	  <td class="col-md-2">田中花子</td>
+		 	  <td class="col-md-3">オブジェクティブコア</td>
+		 	  <td class="col-md-2">経理部</td>
+		 	  <td class="col-md-2">管理権限</td>
+		 	  <td class="col-md-1"><button type="button" onclick="alert('詳細が表示されます')">詳細表示</button></td>
+		 	</tr>
+		 	<tr>
+		 	  <td class="col-md-2">666999090</td>
+		 	  <td class="col-md-2">佐藤五郎</td>
+		 	  <td class="col-md-3">オブジェクティブコード</td>
+		 	  <td class="col-md-2">人事部</td>
+		 	  <td class="col-md-2">統括権限</td>
+		 	  <td class="col-md-1"><button type="button" onclick="alert('ポップアップ出現！！')">詳細表示</button></td>
+		 	</tr>
+　　　　　　　<tr>
+		 	  <td class="col-md-2">33449090</td>
+		 	  <td class="col-md-2">内藤みゆき</td>
+		 	  <td class="col-md-3">オブジェクティブコア</td>
+		 	  <td class="col-md-2">システム</td>
+		 	  <td class="col-md-2">一般権限</td>
+		 	  <td class="col-md-1"><button type="button" onclick="alert('本人ではありませんが…')">詳細表示</button></td>
+		 	</tr>
+　　　　　　　<tr>
+		 	  <td class="col-md-2">000001210</td>
+		 	  <td class="col-md-2">小池晋太郎</td>
+		 	  <td class="col-md-3">オブジェクティブコード</td>
+		 	  <td class="col-md-2">経理部</td>
+		 	  <td class="col-md-2">統括権限</td>
+		 	  <td class="col-md-1"><button type="button" onclick="alert('なにがでるかな')">詳細表示</button></td>
+		 	</tr>
+		 </table>		 	  
+	 	</div>
+
+	 </div>
+    </div>
+</body>
+</html>
